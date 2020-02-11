@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PinFragment">
+
+    <EditText
+        android:id="@+id/pin_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:fontFamily="@font/jalnan"
+        android:inputType="number"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#A67FCC"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jalnan"
+        android:text="-"
+        android:textColor="#A67FCC"
+        android:textSize="20dp"></TextView>
+
+    <EditText
+        android:id="@+id/pin_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:fontFamily="@font/jalnan"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="#A67FCC"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/pin_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:fontFamily="@font/jalnan"
+            android:gravity="center"
+            android:text="PINCODE"
+            android:textColor="#A67FCC"
+            android:textSize="20dp"
+            android:textStyle="bold"></Button>
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_background"
+            android:fontFamily="@font/jalnan"
+            android:gravity="center"
+            android:text="BACK"
+            android:textColor="#A67FCC"
+            android:textSize="20dp"
+            android:textStyle="bold"></Button>
+    </LinearLayout>
+
+
+</LinearLayout>
