@@ -20,12 +20,15 @@
  + Mysql 8.0.18 
  + Android studio 3.5.3
 * * *
-### 3. 웹 페이지
+### 3. DB
+ ![DB](./DB.PNG)
+ * * *
+### 4. 웹 페이지
  + <https://github.com/wnsgh1030/visitor_register_web>
  * * *
-### 4. 배포
+### 5. 배포
  + Heroku로 배포
  + <https://visitor-register.herokuapp.com/>
 * * *
-### 5. 라이브러리
+### 6. 라이브러리
  + Zxing(QR코드)
