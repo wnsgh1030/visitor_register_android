@@ -34,4 +34,4 @@
  + Zxing(QR코드)
  * * *
 ### 7. 라이브러리
- ![DB](./example_main.PNG)
+ ![DB](./example_main.png)
